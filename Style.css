@@ -116,3 +116,31 @@ a:hover {
         width: 95%;
     }
 }
+/* ===== ESTILO DO BOTÃO DE DOWNLOAD (AGORA UM LINK) ===== */
+#container-botao {
+    text-align: center; /* Centraliza o botão */
+    margin-top: 40px;
+}
+
+.botao-download {
+    display: inline-block; /* Essencial para aplicar padding corretamente */
+    padding: 15px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    background-color: rgb(226, 200, 165);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+}
+
+.botao-download:hover {
+    background-color: rgb(214, 185, 145);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+    color: #333; /* Garante que a cor do texto não mude no hover */
+}
